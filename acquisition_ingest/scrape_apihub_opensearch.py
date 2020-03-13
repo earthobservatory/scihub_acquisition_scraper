@@ -477,7 +477,7 @@ def scrape(ds_es_url, ds_cfg, starttime, endtime, polygon=False, user=None, pass
             create_report(starttime, endtime, polygon, still_missing, aoi_name=ctx.get("aoi_name"))
         else:
             if polygon == False:
-              polygon = str(polygon)
+              polygon = '{}'
             create_report(starttime, endtime, polygon, still_missing)
 
 
