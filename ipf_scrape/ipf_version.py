@@ -77,7 +77,7 @@ def get_scihub_namespaces(xml):
        namespaces mapping."""
 
     nss = {}
-    matches = re.findall(r'\s+xmlns:?(\w*?)\s*=\s*[\'"](.*?)[\'"]', xml)
+    matches = re.findall(r'\s+xmlns:?(\w*?)\s*=\s*[\'"](.*?)[\'"]', xml.decode('utf-8'))
     for match in matches:
         prefix = match[0]; ns = match[1]
         if prefix == '': prefix = '_default'
