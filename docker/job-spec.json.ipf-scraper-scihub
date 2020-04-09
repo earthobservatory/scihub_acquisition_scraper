@@ -1,7 +1,7 @@
 {
   "command": "python /home/ops/verdi/ops/scihub_acquisition_scraper/ipf_scrape/ipf_version.py",
   "imported_worker_files": {
-    "/home/ops/.netrc": "/home/ops/.netrc"
+    "/export/home/hysdsops/.netrc": "/home/ops/.netrc"
   },
   "recommended-queues": [
     "ipf-scraper-scihub"
