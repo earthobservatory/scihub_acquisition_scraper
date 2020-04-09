@@ -1,7 +1,7 @@
 {
   "command": "python /home/ops/verdi/ops/scihub_acquisition_scraper/ipf_scrape/AOI_based_ipf_submitter.py",
   "imported_worker_files": {
-    "/home/ops/.netrc": "/home/ops/.netrc"
+    "/export/home/hysdsops/.netrc": "/home/ops/.netrc"
   },
   "required-queues": [
     "factotum-job_worker-small"
