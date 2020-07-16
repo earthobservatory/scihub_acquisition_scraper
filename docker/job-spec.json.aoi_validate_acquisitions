@@ -8,7 +8,7 @@
   ],
   "disk_usage": "10GB",
   "soft_time_limit": 3300,
-  "time_limit": 3600,
+  "time_limit": 36000,
   "params": [
     {
       "name": "ds_cfg",
