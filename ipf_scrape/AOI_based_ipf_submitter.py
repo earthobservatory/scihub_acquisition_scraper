@@ -19,7 +19,7 @@ job_types = {
 
 job_queues = {
     "asf": "factotum-job_worker-ipf-scraper-asf",
-    "scihub": "factotum-job_worker-ipf-scraper-scihubb"
+    "scihub": "factotum-job_worker-ipf-scraper-scihub"
 }
 
 
