@@ -138,7 +138,7 @@ if __name__ == "__main__":
         job_name = "%s-%s-%s-%s-%s" % (job_spec, aoi_name,
                                        start_time.replace("-", "").replace(":", ""),
                                        end_time.replace("-", "").replace(":", ""),
-                                       rtime.strftime("%d_%b_%Y_%H:%M:%S"))
+                                       rtime.strftime("%d_%b_%Y_%H:%M:%SZ"))
         job_name = job_name.lstrip('job-')
 
         # Setup input arguments here
