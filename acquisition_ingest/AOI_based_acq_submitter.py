@@ -132,8 +132,8 @@ if __name__ == "__main__":
 
     segments = get_time_segments(starttime, endtime)
     for segment in segments:
-        start_time = segment[0]
-        end_time = segment[1]
+        start_time = segment[0]+"Z"
+        end_time = segment[1]+"Z"
         rtime = datetime.utcnow()
         job_name = "%s-%s-%s-%s-%s" % (job_spec, aoi_name,
                                        start_time.replace("-", "").replace(":", ""),
