@@ -1,7 +1,7 @@
 {
   "command": "/home/ops/verdi/ops/scihub_acquisition_scraper/ipf_scrape/scrape_asf.py",
   "imported_worker_files": {
-    "/export/home/hysdsops/.netrc": "/home/ops/.netrc"
+    "/home/ops/.netrc": "/home/ops/.netrc"
   },
   "recommended-queues": [
     "factotum-job_worker-apihub_scraper_throttled"
