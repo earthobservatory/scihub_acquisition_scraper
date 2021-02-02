@@ -126,7 +126,7 @@ if __name__ == "__main__":
     starttime = ctx.get("start_time")
     endtime = ctx.get("end_time")
     polygon = ctx.get("spatial_extent")
-    polygon = json.dumps(json.dumps(polygon))
+    polygon = json.dumps(polygon)
     tag = ctx.get("container_specification").get("version")
     job_type = "job-acquisition_ingest-aoi"
     job_spec = "{}:{}".format(job_type, tag)
